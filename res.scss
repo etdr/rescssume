@@ -1,0 +1,164 @@
+
+// VARIABLES
+
+$ddgrn: #224b12;
+$dgrn: #54a738;
+$lgrn: #e4f4df;
+
+
+// GLOBAL
+
+html {
+  font-size: 10pt;
+}
+
+body {
+  box-sizing: border-box;
+
+  padding: 1.2rem;
+
+  // font-size: 12pt;
+  font-family: "Lato", sans-serif;
+  h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+
+  border: 2px solid $dgrn;
+}
+
+.flex-spacer {
+  flex-grow: 1;
+}
+
+.sc {
+  font-variant: small-caps;
+}
+
+.mw {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+a {
+  color: $ddgrn;
+}
+
+
+// HEADER
+
+#header-box {
+  display: flex;
+
+  #header-left-box {
+    background-color: $lgrn;
+    h2 {
+      padding: 0 1.2rem;
+      font-size: 2rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  #header-right-box {
+    background-color: black;
+    color: white;
+
+    p {
+      font-family: "Merriweather", serif;
+      margin: 0;
+      padding: 0.2rem;
+      text-align: right;
+      font-size: 1.5rem;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .flex-spacer {
+    background-color: black;
+  }
+}
+
+
+
+
+// SKILLS
+
+#skills {
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding: 0 1.2rem;
+
+    li {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+
+div#skills-box {
+  background-color: $lgrn;
+  border: 1px solid $dgrn;
+
+}
+
+
+
+
+// EDUCATION
+
+#education {
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    
+    li {
+      margin: 0 0 1rem;
+
+      p {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+    
+      .big-p {
+        font-size: 1.5rem;
+      }
+
+      .indented-p {
+        margin-left: 4rem;
+      }
+    }
+    
+    
+  }
+}
+
+
+
+
+// EMPLOYMENT
+
+.employment-heading {
+  display: flex;
+
+  h1,h2,h3,h4,h5,h6,p {
+    flex-grow: 0;
+  }
+}
+
+
+// PROJECTS
+
+section#projects {
+  h2 {
+    font-weight: normal;
+    font-size: 1.6rem;
+  }
+}
